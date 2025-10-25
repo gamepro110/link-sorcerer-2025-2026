@@ -1,0 +1,21 @@
+# inventory
+
+- a small knife
+- a map of the city you grew up in
+- a pet mouse
+- a token to remember your parents by (neckless with symbol of tribe)
+- a set of common clothes
+- arcane focus (staff)
+- dagger
+- dagger
+- light crossbow
+- bolts (20)
+- explorer's pack
+  - a backpack
+  - a bedroll
+  - a mess kit
+  - a tinderbox
+  - 10 torches
+  - 10 days of rations
+  - a waterskin
+  - 50 feet of hempen rope
