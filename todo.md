@@ -1,1 +1,4 @@
 # todo
+
+- [ ] rework downtime options
+
