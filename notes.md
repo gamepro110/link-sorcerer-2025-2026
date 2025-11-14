@@ -8,7 +8,7 @@
 |  int  |  +0   |  10   | 10                                      |
 |  wis  |  +1   |  12   | 12                                      |
 |  cha  |  +3   |  16   | 14+race(2)                              |
-|  hp   |   -   |  23   | 6 + con(3) + (4 + con(3) * (lv(3) - 1)) |
+|  hp   |   -   |  27   | 6 + con(3) + (4 + con(3) * (lv(3) - 1)) |
 
 ---
 
@@ -17,6 +17,7 @@
 | AC           |  11   | 10+dex(+1)        |
 | spell attack |  +5   | mod(+3)+prof(2)   |
 | spell save   |  13   | 8+mod(+3)+prof(2) |
+| sorcery points | 6 | lv(4)+feat(2) |
 
 ---
 
@@ -32,29 +33,28 @@
 ---
 
 > [!Note]
-> known cantrips: 4  
-> known spells: 8 = 4 (class lv) + 2 (subclass 1st lv) + 2 (subclass 3rd lv)
+> known cantrips: 5  
+> known spells: 9 = 5 (class lv) + 2 (subclass 1st lv) + 2 (subclass 3rd lv)
 
-| spell/skill slot | available | used  |
-| :--------------: | :-------: | :---: |
-| restore balance  |  prof(2)  |   0   |
-|  sorcery points  |     3     |   0   |
-|      1st lv      |     4     |   0   |
-|      2nd lv      |     2     |   0   |
-|      3rd lv      |     0     |   0   |
-|      4th lv      |     0     |   0   |
-|      5th lv      |     0     |   0   |
+| spell/skill slot | available | used |
+| :--------------: | :-------: | :--: |
+| restore balance  |  prof(2)  |  0   |
+|  sorcery points  |     6     |  0   |
+|      1st lv      |     4     |  0   |
+|      2nd lv      |     3     |  0   |
+|      3rd lv      |     0     |  0   |
+|      4th lv      |     0     |  0   |
+|      5th lv      |     0     |  0   |
 
 ---
 
-|                 |       |
-| --------------- | :---: |
-| current hp      |  23   |
-| max hp          |  23   |
-| initiative      |  +0   |
-| gold            |  60   |
-| known cantrips  |   0   |
-| prepared spells |   0   |
+|                 |     |
+| --------------- | :-: |
+| current hp      | 27  |
+| max hp          | 27  |
+| initiative      | +0  |
+| gold            | 85  |
+| known cantrips  |  5  |
 
 ---
 
