@@ -12,12 +12,12 @@
 
 ---
 
-| ability      | score | calc              |
-| ------------ | :---: | ----------------- |
-| AC           |  11   | 10+dex(+1)        |
-| spell attack |  +5   | mod(+3)+prof(2)   |
-| spell save   |  13   | 8+mod(+3)+prof(2) |
-| sorcery points | 6 | lv(4)+feat(2) |
+| ability        | score | calc              |
+| -------------- | :---: | ----------------- |
+| AC             |  11   | 10+dex(+1)        |
+| spell attack   |  +5   | mod(+3)+prof(2)   |
+| spell save     |  13   | 8+mod(+3)+prof(2) |
+| sorcery points |   6   | lv(4)+feat(2)     |
 
 ---
 
@@ -36,32 +36,34 @@
 > known cantrips: 5  
 > known spells: 9 = 5 (class lv) + 2 (subclass 1st lv) + 2 (subclass 3rd lv)
 
-| spell/skill slot | available | used |
-| :--------------: | :-------: | :--: |
-| restore balance  |  prof(2)  |  0   |
-|  sorcery points  |     6     |  0   |
-|      1st lv      |     4     |  0   |
-|      2nd lv      |     3     |  0   |
-|      3rd lv      |     0     |  0   |
-|      4th lv      |     0     |  0   |
-|      5th lv      |     0     |  0   |
+| spell/skill slot | available | used  |
+| :--------------: | :-------: | :---: |
+| restore balance  |  prof(2)  |   0   |
+|  sorcery points  |     6     |   0   |
+|      1st lv      |     4     |   0   |
+|      2nd lv      |     3     |   0   |
+|      3rd lv      |     0     |   0   |
+|      4th lv      |     0     |   0   |
+|      5th lv      |     0     |   0   |
 
 ---
 
-|                 |     |
-| --------------- | :-: |
-| current hp      | 27  |
-| max hp          | 27  |
-| initiative      | +0  |
-| gold            | 85  |
-| known cantrips  |  5  |
+|                |       |
+| -------------- | :---: |
+| current hp     |  27   |
+| max hp         |  27   |
+| initiative     |  +0   |
+| gold           |  85   |
+| known cantrips |   5   |
 
 ---
 
-| meta magic    | cost | effect                                                                      |
-| ------------- | ---- | --------------------------------------------------------------------------- |
-| distant spell | 1    | range 5ft+ -> doubles, range touch -> 30ft                                  |
-| seeking spell | 2    | miss attack roll for spell and miss, 2 sp to reroll d20, must use new roll. |
+| meta magic      | cost     | effect                                                    |
+| --------------- | -------- | --------------------------------------------------------- |
+| distant spell   | 1        | range 5ft+ -> doubles, range touch -> 30ft                |
+| subtle spell    | 1        | cast spell without verbal or somatic components           |
+| twinned spell   | spell lv | single target spell to double target                      |
+| empowered spell | 1        | reroll (cha mod) dmg dice, must use new roll (combinable) |
 
 ---
 
@@ -89,7 +91,9 @@
 | [chill touch](./spells/cantrip/chill-touch.md)           |                     | spell attack, 120ft, **1d8** necrotic on hit                                               |
 | [dancing lights](./spells/cantrip/dancing-lights.md)     |                     | 120ft, concentration up to 1 min                                                           |
 | [fire bolt](./spells/cantrip/fire-bolt.md)               |                     | spell attack, 120ft, **1d10**                                                              |
+| [mind sliver](./spells/cantrip/mind-sliver.md)           |                     | 60ft, int save, 1d6 psychic, subtract 1d4 from next save                                   |
 | [magic missile](./spells/lv1/magic-missile.md)           |                     | auto hit, 3 X **1d4+1** force dmg                                                          |
+| [ice knife](./spells/lv1/ice-knife.md)                   |                     | 60ft, 1d10 piercing + 5ft dex-save 2d6 cold dmg                                            |
 | [silent image](./spells/lv1/silent-image.md)             |                     | concentration, visual only, 60ft range, 15ft cube                                          |
 | [thunderwave](./spells/lv1/thunderwave.md)               |                     | 15ft cone, con save, **2d8** thunder dmg + pushed 10ft on success, fail half dmg + no push |
 | [aid](./spells/lv2/aid.md)                               |                     | concentration 8h, 30ft range, choose 3, each get +5 max and current hp                     |
@@ -109,6 +113,12 @@
 | ---------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------- |
 | [restore balance](./class_features.md#level-1-restore-balance-tce-p68) | creature i see within 60 ft is about to roll with (dis)advantage | prevent (dis)advantage |
 | [shield](./spells/lv1/shield.md)                                       |                                                                  | +5 to ac               |
+
+## attune-able items
+
+| attuned | item                                                      |
+| ------- | --------------------------------------------------------- |
+| [x]     | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
 
 ## ASI/Feat
 
