@@ -5,10 +5,10 @@
 
 | lv  | tier | activity                  |
 | --- | ---- | ------------------------- |
+| 4   | 1    | fast rester               |
 | --- | ---  | ---                       |
-| 4   | 1    | Foundation for all things |
-| 5   | 1    | fast rester               |
-| 6   | 2    | Adaptable Initiative      |
-| 7   | 2    | Magic is for All          |
-| 8   |      |                           |
+| 5   | 1    | light armor training?     |
+| 6   | 2    | Foundation for all things |
+| 7   | 2    | Adaptable Initiative      |
+| 8   | 2    | Magic is for All          |
 | 9   | 3    | Chaos and Understanding   |
