@@ -13,7 +13,7 @@
 ---
 
 | ability | score | calc |
-| -------------- | :---: | ------------------------- |
+| --- | :---: | --- |
 | AC | 11 | 10+dex(+1) |
 | spell attack | +7 | mod(+3)+prof(3)+item(1) |
 | spell save | 15 | 8+mod(+3)+prof(3)+item(1) |
@@ -22,7 +22,7 @@
 ---
 
 | saves | score | calc | advantage + reason |
-| ----- | :---: | --------------- | -------------------------- |
+| --- | :---: | --- | --- |
 | STR | -1 | mod(-1) | |
 | DEX | +1 | mod(+1) | |
 | CON | +6 | mod(+3)+prof(3) | |
@@ -37,12 +37,13 @@
 > known spells: 12 = 6 (class lv) + (2 * (subclass lv 1, 3, 5))
 
 | spell/skill slot | available | used |
-| :--------------: | :-------: | :---: |
-| restore balance | prof(2) | 0 |
-| sorcery points | 7 | 7 |
+| :---: | :---: | :---: |
+| restore balance | prof(3) | 0 |
+| foundation f.a.t. | prof(3) | 0 |
+| sorcery points | 8 | 0 |
 | 1st lv | 4 | 0 |
 | 2nd lv | 3 | 0 |
-| 3rd lv | 2 | 0 |
+| 3rd lv | 3 | 0 |
 | 4th lv | 0 | 0 |
 | 5th lv | 0 | 0 |
 
@@ -70,7 +71,7 @@
 ---
 
 | sorcerer lv | learned clockwork spell |
-| ----------- | --------------------------------------- |
+| --- | --- |
 | 1st | alarm, protection from evil and good |
 | 2nd | protection from evil and good -> shield |
 | 3rd | aid, lesser restoration |
@@ -87,7 +88,7 @@
 ### action
 
 | name | requirement | note |
-| -------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------ |
+| --- | --- | --- |
 | [shoot light crossbow](./inventory/light-crossbow.md) | bolts + two‑handed | 80/320ft 1d8+1 piercing, bonus-action reload |
 | [acid splash](./spells/cantrip/acid-splash.md) | | 60ft, target 1 or 2 within 5ft of each other, dex save **1d6** acid on failed save |
 | [chill touch](./spells/cantrip/chill-touch.md) | | spell attack, 120ft, **1d8** necrotic on hit |
@@ -101,37 +102,46 @@
 | [aid](./spells/lv2/aid.md) | | concentration 8h, 30ft range, choose 3, each get +5 max and current hp |
 | [enlarge/reduce](./spells/lv2/enlarge-reduce.md) | | concentration 1min, 30ft range |
 | [lesser restoration](./spells/lv2/lesser-restoration.md) | | touch, cure 1 condition or disease, see chart in spell |
+| [release chrono-watch spell](./magic-items/3-chronology-watch.md) | needs saved spell | saved spell: ... |
+| [bastion of law](./class_features.md#level-6-bastion-of-law-tce-p68) | 1-5 sorcery points | create ward to reduce incoming dmg by spending n d8's equal up to sorcery points spend remaining |
 
 ### bonus actions
 
 | name | requirement | note |
-| ------------------------ | ---------------- | ---------------------------------------------------------------- |
+| --- | --- | --- |
 | convert sp to spell slot | spend sp | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 | convert spell slot to sp | spend spell slot | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 
 ### on metamagic use
 
 | name | effect | duration |
-| --------------- | ------------------------------------- | ------------------------ |
+| --- | --- | --- |
 | momentary curse | grant disadvantage on 1 ability score | until the end of my turn |
+
+### on cantrip cast
+
+| name | effect | note |
+| --- | --- | --- |
+| foundation for all things | cast a 2nd cantrip as a bonus action | feature can be used up to prof(3) number of times |
 
 ### reaction
 
 | name | requirement | note |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------- |
+| --- | --- | --- |
 | [restore balance](./class_features.md#level-1-restore-balance-tce-p68) | creature i see within 60 ft is about to roll with (dis)advantage | prevent (dis)advantage |
 | [shield](./spells/lv1/shield.md) | | +5 to ac |
 
 ## attune-able items
 
 | attuned | item |
-| ------- | --------------------------------------------------------- |
+| --- | --- |
 | [x] | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
 | [x] | [amulet of hecate](./magic-items/2-amulet-of-hecate.md) |
+| [x] | [Chronology Watch](./magic-items/3-chronology-watch.md) |
 
 ## ASI/Feat
 
 | lv | choice |
-| --- | --------------- |
+| --- | --- |
 | 4 | Metamagic Adept |
 | 8 | ... |
