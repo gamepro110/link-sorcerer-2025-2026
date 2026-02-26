@@ -8,7 +8,7 @@
 | int | +0 | 10 | 10 |
 | wis | +1 | 12 | 12 |
 | cha | +3 | 16 | 14+race(2) |
-| hp | n.a. | 37 | 6 + con(3) + (avg(4) + con(3) * (lv(5) - 1)) |
+| hp | n.a. | 44 | 6 + con(3) + (avg(4) + con(3) * (lv(6) - 1)) |
 
 ---
 
@@ -42,7 +42,7 @@
 | foundation f.a.t. | prof(3) | 0 |
 | sorcery points | 8 | 0 |
 | 1st lv | 4 | 0 |
-| 2nd lv | 3 | 0 |
+| 2nd lv | 3 | 0 |`
 | 3rd lv | 3 | 0 |
 | 4th lv | 0 | 0 |
 | 5th lv | 0 | 0 |
@@ -51,8 +51,8 @@
 
 | | |
 | --- | :---: |
-| current hp     | 37 |
-| max hp         | 37 |
+| current hp     | 44 |
+| max hp         | 44 |
 | initiative     | +1 |
 | gold           | 93 |
 | known cantrips | 5  |
