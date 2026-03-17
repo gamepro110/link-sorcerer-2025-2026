@@ -7,17 +7,17 @@
 | con | +3 | 16 | 15+race(1) |
 | int | +0 | 10 | 10 |
 | wis | +1 | 12 | 12 |
-| cha | +3 | 16 | 14+race(2) |
-| hp | n.a. | 44 | 6 + con(3) + (avg(4) + con(3) * (lv(6) - 1)) |
+| cha | +4 | 18 | 14+race(2)+ASI(2) |
+| hp | n.a. | 58 | 6 + con(3) + (avg(4) + con(3) * (lv(6) - 1)) |
 
 ---
 
 | ability | score | calc |
 | --- | :---: | --- |
 | AC | 11 | 10+dex(+1) |
-| spell attack | +7 | mod(+3)+prof(3)+item(1) |
-| spell save | 15 | 8+mod(+3)+prof(3)+item(1) |
-| sorcery points | 7 | lv(5)+feat(2) |
+| spell attack | +8 | mod(+4)+prof(3)+item(1) |
+| spell save | 16 | 8+mod(+4)+prof(3)+item(1) |
+| sorcery points | 10 | lv(8)+feat(2) |
 
 ---
 
@@ -28,7 +28,7 @@
 | CON | +6 | mod(+3)+prof(3) | |
 | INT | +0 | mod(+0) | |
 | WIS | +1 | mod(+1) | always, telepathic insight |
-| CHA | +6 | mod(+3)+prof(3) | always, telepathic insight |
+| CHA | +7 | mod(+4)+prof(3) | always, telepathic insight |
 
 ---
 
@@ -40,19 +40,19 @@
 | :---: | :---: | :---: |
 | restore balance | prof(3) | 0 |
 | foundation f.a.t. | prof(3) | 0 |
-| sorcery points | 8 | 0 |
+| sorcery points | 10 | 0 |
 | 1st lv | 4 | 0 |
-| 2nd lv | 3 | 0 |`
+| 2nd lv | 3 | 0 |
 | 3rd lv | 3 | 0 |
-| 4th lv | 0 | 0 |
+| 4th lv | 2 | 0 |
 | 5th lv | 0 | 0 |
 
 ---
 
 | | |
 | --- | :---: |
-| current hp     | 44 |
-| max hp         | 44 |
+| current hp     | 58 |
+| max hp         | 58 |
 | initiative     | +1 |
 | gold           | 93 |
 | known cantrips | 5  |
@@ -72,16 +72,18 @@
 
 | sorcerer lv | learned clockwork spell |
 | --- | --- |
-| 1st | alarm, protection from evil and good |
-| 2nd | protection from evil and good -> shield |
-| 3rd | aid, lesser restoration |
-| 4th | --- |
-| 5th | dispel magic, protection from energy |
-| 6th | |
-| 7th | |
-| 8th | |
-| 9th | |
+| 1st  | alarm, protection from evil and good |
+| 2nd  | protection from evil and good -> shield |
+| 3rd  | aid, lesser restoration, alarm -> tasha's mind whip |
+| 4th  | aid -> shatter |
+| 5th  | dispel magic, protection from energy |
+| 6th  | protection from energy -> Wither and Bloom |
+| 7th  | freedom of movement, summon construct |
+| 8th  | |
+| 9th  | |
 | 10th | |
+| 11th | |
+| 12th | |
 
 ## action economy
 
@@ -89,19 +91,32 @@
 
 | name | requirement | note |
 | --- | --- | --- |
-| [shoot light crossbow](./inventory/light-crossbow.md) | bolts + two‑handed | 80/320ft 1d8+1 piercing, bonus-action reload |
 | [acid splash](./spells/cantrip/acid-splash.md) | | 60ft, target 1 or 2 within 5ft of each other, dex save **1d6** acid on failed save |
 | [chill touch](./spells/cantrip/chill-touch.md) | | spell attack, 120ft, **1d8** necrotic on hit |
 | [dancing lights](./spells/cantrip/dancing-lights.md) | | 120ft, concentration up to 1 min |
 | [fire bolt](./spells/cantrip/fire-bolt.md) | | spell attack, 120ft, **1d10** |
 | [mind sliver](./spells/cantrip/mind-sliver.md) | | 60ft, int save, 1d6 psychic, subtract 1d4 from next save |
+| 1st | - | - |
+| [ice knife](./spells/lv1/ice-knife.md) | | 60ft, spell attack, 1d10 piercing on hit, + 2d6 cold regardless
 | [magic missile](./spells/lv1/magic-missile.md) | | auto hit, 3 X **1d4+1** force dmg |
 | [ice knife](./spells/lv1/ice-knife.md) | | 60ft, 1d10 piercing + 5ft dex-save 2d6 cold dmg |
-| [silent image](./spells/lv1/silent-image.md) | | concentration, visual only, 60ft range, 15ft cube |
 | [thunderwave](./spells/lv1/thunderwave.md) | | 15ft cone, con save, **2d8** thunder dmg + pushed 10ft on success, fail half dmg + no push |
-| [aid](./spells/lv2/aid.md) | | concentration 8h, 30ft range, choose 3, each get +5 max and current hp |
+| 2nd | - | - |
 | [enlarge/reduce](./spells/lv2/enlarge-reduce.md) | | concentration 1min, 30ft range |
 | [lesser restoration](./spells/lv2/lesser-restoration.md) | | touch, cure 1 condition or disease, see chart in spell |
+| [scorching ray](./spells/lv2/scorching-ray.md) |  | spell attack, 120ft, 1 to 3 targets (no twin-spell) |
+| [shatter](./spells/lv2/shatter.md) |  | 60ft, CON save, 3d8 thunder |
+| [tasha's mind whip](./spells/lv2/tashas-mind-whip.md) |  | 90ft, INT save, 3d6 psychic |
+| [wither and bloom](./spells/lv2/wither-and-bloom.md) |  | 60ft range, 10ft radius sphere, 2d6 necrotic, 1 ally can roll 1 hit-die |
+| 3rd | - | - |
+| [counter spell](./spells/lv3/counterspell.md) |  | 60ft range, dc $10+SpellLV$ |
+| [dispel magic](./spells/lv3/dispel-magic.md) |  | 120ft range, dc $10+SpellLV$ |
+| [fireball](./spells/lv3/fireball.md) |  | 150ft range, DEX save, 8d6 fire |
+| 4th | - | - |
+| [blight](./spells/lv4/blight.md) |  | 30ft range, CON save, 8d8 Necrotic |
+| [freedom of movement](./spells/lv4/freedom-of-movement.md) |  | 1 target, 1 hour, negates difficult terrain |
+| [summon construct](./spells/lv4/summon-construct.md) |  | 90ft, concentration, 1 hour |
+| items | - | - |
 | [release chrono-watch spell](./magic-items/3-chronology-watch.md) | needs saved spell | saved spell: ... |
 | [bastion of law](./class_features.md#level-6-bastion-of-law-tce-p68) | 1-5 sorcery points | create ward to reduce incoming dmg by spending n d8's equal up to sorcery points spend remaining |
 
@@ -138,10 +153,11 @@
 | [x] | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
 | [x] | [amulet of hecate](./magic-items/2-amulet-of-hecate.md) |
 | [x] | [Chronology Watch](./magic-items/3-chronology-watch.md) |
+| [ ] |  |
 
 ## ASI/Feat
 
 | lv | choice |
 | --- | --- |
 | 4 | Metamagic Adept |
-| 8 | ... |
+| 8 | ASI (cha) |
