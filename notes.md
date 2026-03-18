@@ -126,6 +126,7 @@
 | --- | --- | --- |
 | convert sp to spell slot | spend sp | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 | convert spell slot to sp | spend spell slot | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
+| stone of sorcery time | spend sp | spend up to 3 sorcery points to heal 1d8 + MOD(4) |
 
 ### on metamagic use
 
