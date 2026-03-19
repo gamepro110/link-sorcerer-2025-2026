@@ -54,7 +54,7 @@
 | current hp     | 58 |
 | max hp         | 58 |
 | initiative     | +1 |
-| gold           | 93 |
+| gold           | 493 |
 | known cantrips | 5  |
 
 ---
