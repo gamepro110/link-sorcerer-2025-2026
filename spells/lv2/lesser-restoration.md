@@ -2,8 +2,8 @@
 
 Abjuration 2nd lv
 
-|              |               |
-| ------------ | ------------- |
+|||
+| --- | --- |
 | casting time | 1 action      |
 | range        | Touch         |
 | components   | V,S           |
