@@ -6,7 +6,7 @@
 | dex | +1 | 13 | 13 |
 | con | +3 | 16 | 15+race(1) |
 | int | +0 | 10 | 10 |
-| wis | +1 | 12 | 12 |
+| wis | +1 | 13 | 12+feat(1) |
 | cha | +4 | 18 | 14+race(2)+ASI(2) |
 | hp | n.a. | 72 | 6 + con(3) + (avg(4) + con(3) * (lv(10) - 1)) |
 
@@ -135,6 +135,12 @@
 | name | effect | duration |
 | --- | --- | --- |
 | momentary curse | grant disadvantage on 1 ability score | until the end of my turn |
+
+### on spell cast
+
+| name | effect |
+| --- | --- |
+| chaos and understanding | upcast a spell up to 7th lv, but take n d6 psychic dmg for each level upcasted |
 
 ### on cantrip cast
 
