@@ -8,16 +8,16 @@
 | int | +0 | 10 | 10 |
 | wis | +1 | 12 | 12 |
 | cha | +4 | 18 | 14+race(2)+ASI(2) |
-| hp | n.a. | 58 | 6 + con(3) + (avg(4) + con(3) * (lv(6) - 1)) |
+| hp | n.a. | 72 | 6 + con(3) + (avg(4) + con(3) * (lv(10) - 1)) |
 
 ---
 
 | ability | score | calc |
 | --- | :---: | --- |
 | AC | 11 | 10+dex(+1) |
-| spell attack | +8 | mod(+4)+prof(3)+item(1) |
-| spell save | 16 | 8+mod(+4)+prof(3)+item(1) |
-| sorcery points | 10 | lv(8)+feat(2) |
+| spell attack | +9 | mod(+4)+prof(4)+item(1) |
+| spell save | 17 | 8+mod(+4)+prof(4)+item(1) |
+| sorcery points | 12 | lv(10)+feat(2) |
 
 ---
 
@@ -25,37 +25,38 @@
 | --- | :---: | --- | --- |
 | STR | -1 | mod(-1) | |
 | DEX | +1 | mod(+1) | |
-| CON | +6 | mod(+3)+prof(3) | |
+| CON | +7 | mod(+3)+prof(4) | |
 | INT | +0 | mod(+0) | |
 | WIS | +1 | mod(+1) | always, telepathic insight |
-| CHA | +7 | mod(+4)+prof(3) | always, telepathic insight |
+| CHA | +8 | mod(+4)+prof(4) | always, telepathic insight |
 
 ---
 
 > [!Note]
-> known cantrips: 5 
-> known spells: 12 = 6 (class lv) + (2 * (subclass lv 1, 3, 5))
+> known cantrips: 6 
+> known spells: 20? = 10 (class lv) + (2 * (subclass lv 1, 3, 5, 7, 9))
 
 | spell/skill slot | available | used |
 | :---: | :---: | :---: |
-| restore balance | prof(3) | 0 |
-| foundation f.a.t. | prof(3) | 0 |
-| sorcery points | 10 | 0 |
+| restore balance | prof(4) | 0 |
+| foundation f.a.t. | prof(4) | 0 |
+| sorcery points | 12 | 0 |
 | 1st lv | 4 | 0 |
 | 2nd lv | 3 | 0 |
 | 3rd lv | 3 | 0 |
-| 4th lv | 2 | 0 |
-| 5th lv | 0 | 0 |
+| 4th lv | 3 | 0 |
+| 5th lv | 2 | 0 |
+| 6th lv | 0 | 0 |
 
 ---
 
 | | |
 | --- | :---: |
-| current hp     | 58 |
-| max hp         | 58 |
-| initiative     | +1 |
+| current hp     | 72 |
+| max hp         | 72 |
+| initiative     | +3 |
 | gold           | 593 |
-| known cantrips | 5  |
+| known cantrips | 6  |
 
 ---
 
@@ -65,6 +66,7 @@
 | subtle spell | 1 | cast spell without verbal or somatic components |
 | twinned spell | spell lv | single target spell to double target |
 | empowered spell | 1 | reroll (cha mod) dmg dice, must use new roll (combinable) |
+| extended spell | 1 | double duration for spells with casting time of an action up to 24 hours  |
 | --- | --- | --- |
 | magical guidance | 1 | reroll d20 on failed ability check, must use new roll |
 
@@ -79,11 +81,11 @@
 | 5th  | dispel magic, protection from energy |
 | 6th  | protection from energy -> Wither and Bloom |
 | 7th  | freedom of movement, summon construct |
-| 8th  | |
-| 9th  | |
-| 10th | |
-| 11th | |
-| 12th | |
+| 8th  |  |
+| 9th  | greater restoration, wall of force |
+| 10th |  |
+| 11th |  |
+| 12th |  |
 
 ## action economy
 
@@ -97,7 +99,7 @@
 | [fire bolt](./spells/cantrip/fire-bolt.md) | | spell attack, 120ft, **1d10** |
 | [mind sliver](./spells/cantrip/mind-sliver.md) | | 60ft, int save, 1d6 psychic, subtract 1d4 from next save |
 | 1st | - | - |
-| [ice knife](./spells/lv1/ice-knife.md) | | 60ft, spell attack, 1d10 piercing on hit, + 2d6 cold regardless
+| [ice knife](./spells/lv1/ice-knife.md) | | 60ft, spell attack, 1d10 piercing on hit, + 2d6 cold regardless |
 | [magic missile](./spells/lv1/magic-missile.md) | | auto hit, 3 X **1d4+1** force dmg |
 | [ice knife](./spells/lv1/ice-knife.md) | | 60ft, 1d10 piercing + 5ft dex-save 2d6 cold dmg |
 | [thunderwave](./spells/lv1/thunderwave.md) | | 15ft cone, con save, **2d8** thunder dmg + pushed 10ft on success, fail half dmg + no push |
@@ -154,7 +156,7 @@
 | [x] | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
 | [x] | [amulet of hecate](./magic-items/2-amulet-of-hecate.md) |
 | [x] | [Chronology Watch](./magic-items/3-chronology-watch.md) |
-| [ ] |  |
+|  |  |
 
 ## ASI/Feat
 
