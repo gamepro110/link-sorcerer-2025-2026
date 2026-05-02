@@ -1,1 +1,3 @@
 # todo
+
+- [ ] new magic item
