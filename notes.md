@@ -129,6 +129,7 @@
 | convert sp to spell slot | spend sp | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 | convert spell slot to sp | spend spell slot | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 | stone of sorcery time | spend sp | spend up to 3 sorcery points to heal 1d8 + MOD(4) |
+| smart mans cap | wearing the cap | 60ft cone, dc 15 INT save, 5d8 psychic dmg + stunned on failed save, half dmg on successful save |
 
 ### on metamagic use
 
@@ -162,7 +163,7 @@
 | [x] | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
 | [x] | [amulet of hecate](./magic-items/2-amulet-of-hecate.md) |
 | [x] | [Chronology Watch](./magic-items/3-chronology-watch.md) |
-|  |  |
+| [x] | [smart mans cap](./magic-items/5-smart-mans-cap.md) |
 
 ## ASI/Feat
 
