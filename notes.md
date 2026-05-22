@@ -15,8 +15,8 @@
 | ability | score | calc |
 | --- | :---: | --- |
 | AC | 11 | 10+dex(+1) |
-| spell attack | +9 | mod(+4)+prof(4)+item(1) |
-| spell save | 17 | 8+mod(+4)+prof(4)+item(1) |
+| spell attack | +10 | mod(+4)+prof(4)+item(2) |
+| spell save | 18 | 8+mod(+4)+prof(4)+item(2) |
 | sorcery points | 12 | lv(10)+feat(2) |
 
 ---
@@ -52,11 +52,11 @@
 
 | | |
 | --- | :---: |
-| current hp     | 72 |
+| current hp     | 72 | 
 | max hp         | 72 |
 | initiative     | +3 |
-| gold           | 593 |
-| known cantrips | 6  |
+| gold           | 693 |
+| known cantrips | 6 |
 
 ---
 
@@ -161,9 +161,9 @@
 | attuned | item |
 | --- | --- |
 | [x] | [Bubble of Privacy](./magic-items/1-bubble-of-privacy.md) |
-| [x] | [amulet of hecate](./magic-items/2-amulet-of-hecate.md) |
 | [x] | [Chronology Watch](./magic-items/3-chronology-watch.md) |
 | [x] | [smart mans cap](./magic-items/5-smart-mans-cap.md) |
+| [x] | [wrath-fused amulet of hecate](./magic-items/6-wrath-fused-amulet-of-hecate.md) |
 
 ## ASI/Feat
 
