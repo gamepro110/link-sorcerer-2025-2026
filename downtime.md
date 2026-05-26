@@ -3,15 +3,13 @@
 > [!NOTE]
 > the `---` shows current time, everything above it is set and learned
 
-| lv | tier | activity |
-| --- | --- | --- |
-| 4 | 1 | fast rester |
-| 5 | 1 | light armor training |
-| 6 | 2 | Foundation for all things |
-| 7 | 2 | Adaptable Initiative |
-| 8 | 2 | Magic is for All |
-| 9 | 3 | Chaos and Understanding |
-| 10 | 2 | observation training |
-| --- | --- | --- |
-| 11 | | expertise training |
-| 12 | | ... |
+| tier | activity |
+| --- | --- |
+| 1 | fast rester |
+| 1 | light armor training |
+| 2 | Foundation for all things |
+| 2 | Adaptable Initiative |
+| 2 | Magic is for All |
+| 3 | Chaos and Understanding |
+| 2 | observation training |
+| --- | --- |

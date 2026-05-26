@@ -1,8 +1,6 @@
 # todo
 
-- [ ] update action econs
+- [ ] update action econ
   - [ ] action
   - [ ] bonus action
-- [ ] update pdf
-  - [ ] new item (6)
-  - [ ] level up
+

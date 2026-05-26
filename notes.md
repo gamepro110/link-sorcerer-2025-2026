@@ -7,17 +7,17 @@
 | con | +3 | 16 | 15+race(1) |
 | int | +0 | 10 | 10 |
 | wis | +1 | 13 | 12+feat(1) |
-| cha | +4 | 18 | 14+race(2)+ASI(2) |
-| hp | n.a. | 72 | 6 + con(3) + (avg(4) + con(3) * (lv(10) - 1)) |
+| cha | +5 | 20 | 14+race(2)+ASI(2)+ASI(2) |
+| hp | n.a. | 86 | 6 + con(3) + (avg(4) + con(3) * (lv(12) - 1)) |
 
 ---
 
 | ability | score | calc |
 | --- | :---: | --- |
 | AC | 11 | 10+dex(+1) |
-| spell attack | +10 | mod(+4)+prof(4)+item(2) |
-| spell save | 18 | 8+mod(+4)+prof(4)+item(2) |
-| sorcery points | 12 | lv(10)+feat(2) |
+| spell attack | +11 | mod(+5)+prof(4)+item(2) |
+| spell save | 19 | 8+mod(+5)+prof(4)+item(2) |
+| sorcery points | 14 | lv(12)+feat(2) |
 
 ---
 
@@ -28,32 +28,32 @@
 | CON | +7 | mod(+3)+prof(4) | |
 | INT | +0 | mod(+0) | |
 | WIS | +1 | mod(+1) | always, telepathic insight |
-| CHA | +8 | mod(+4)+prof(4) | always, telepathic insight |
+| CHA | +9 | mod(+5)+prof(4) | always, telepathic insight |
 
 ---
 
 > [!Note]
 > known cantrips: 6 
-> known spells: 20? = 10 (class lv) + (2 * (subclass lv 1, 3, 5, 7, 9))
+> known spells: 21 = 12 (class lv) + (2 * (subclass lv 1, 3, 5, 7, 9))
 
 | spell/skill slot | available | used |
 | :---: | :---: | :---: |
 | restore balance | prof(4) | 0 |
 | foundation f.a.t. | prof(4) | 0 |
-| sorcery points | 12 | 0 |
+| sorcery points | 14 | 0 |
 | 1st lv | 4 | 0 |
 | 2nd lv | 3 | 0 |
 | 3rd lv | 3 | 0 |
 | 4th lv | 3 | 0 |
 | 5th lv | 2 | 0 |
-| 6th lv | 0 | 0 |
+| 6th lv | 1 | 0 |
 
 ---
 
 | | |
 | --- | :---: |
-| current hp     | 72 | 
-| max hp         | 72 |
+| current hp     | 86 | 
+| max hp         | 86 |
 | initiative     | +3 |
 | gold           | 693 |
 | known cantrips | 6 |
@@ -93,15 +93,21 @@
 
 | name | requirement | note |
 | --- | --- | --- |
+| item | - | - |
+| [release chrono-watch spell](./magic-items/3-chronology-watch.md) | needs saved spell | saved spell: ... |
+| [bastion of law](./class_features.md#level-6-bastion-of-law-tce-p68) | 1-5 sorcery points | create ward to reduce incoming dmg by spending n d8's equal up to sorcery points spend remaining |
+| [bubble of privacy hut](./magic-items/1-bubble-of-privacy.md#leomunds-tiny-hut) |  |  |
+| [bubble of privacy sphere](./magic-items/1-bubble-of-privacy.md#otilukes-resilient-sphere) |  |  |
+| cantrip | - | - |
 | [acid splash](./spells/cantrip/acid-splash.md) | | 60ft, target 1 or 2 within 5ft of each other, dex save **1d6** acid on failed save |
 | [chill touch](./spells/cantrip/chill-touch.md) | | spell attack, 120ft, **1d8** necrotic on hit |
 | [dancing lights](./spells/cantrip/dancing-lights.md) | | 120ft, concentration up to 1 min |
 | [fire bolt](./spells/cantrip/fire-bolt.md) | | spell attack, 120ft, **1d10** |
+| [message](./spells/cantrip/message.md) |  | 120ft, 25 words |
 | [mind sliver](./spells/cantrip/mind-sliver.md) | | 60ft, int save, 1d6 psychic, subtract 1d4 from next save |
 | 1st | - | - |
 | [ice knife](./spells/lv1/ice-knife.md) | | 60ft, spell attack, 1d10 piercing on hit, + 2d6 cold regardless |
 | [magic missile](./spells/lv1/magic-missile.md) | | auto hit, 3 X **1d4+1** force dmg |
-| [ice knife](./spells/lv1/ice-knife.md) | | 60ft, 1d10 piercing + 5ft dex-save 2d6 cold dmg |
 | [thunderwave](./spells/lv1/thunderwave.md) | | 15ft cone, con save, **2d8** thunder dmg + pushed 10ft on success, fail half dmg + no push |
 | 2nd | - | - |
 | [enlarge/reduce](./spells/lv2/enlarge-reduce.md) | | concentration 1min, 30ft range |
@@ -111,23 +117,27 @@
 | [tasha's mind whip](./spells/lv2/tashas-mind-whip.md) |  | 90ft, INT save, 3d6 psychic |
 | [wither and bloom](./spells/lv2/wither-and-bloom.md) |  | 60ft range, 10ft radius sphere, 2d6 necrotic, 1 ally can roll 1 hit-die |
 | 3rd | - | - |
-| [counter spell](./spells/lv3/counterspell.md) |  | 60ft range, dc $10+SpellLV$ |
 | [dispel magic](./spells/lv3/dispel-magic.md) |  | 120ft range, dc $10+SpellLV$ |
 | [fireball](./spells/lv3/fireball.md) |  | 150ft range, DEX save, 8d6 fire |
+| [slow](./spells/lv3/slow.md) |  | 120ft range, 6 creatures, 40ft cube |
 | 4th | - | - |
 | [blight](./spells/lv4/blight.md) |  | 30ft range, CON save, 8d8 Necrotic |
 | [freedom of movement](./spells/lv4/freedom-of-movement.md) |  | 1 target, 1 hour, negates difficult terrain |
+| [greater invisibility](./spells/lv4/greater-invisibility.md) |  | touch, 1 min, concentration |
 | [summon construct](./spells/lv4/summon-construct.md) |  | 90ft, concentration, 1 hour |
-| items | - | - |
-| [release chrono-watch spell](./magic-items/3-chronology-watch.md) | needs saved spell | saved spell: ... |
-| [bastion of law](./class_features.md#level-6-bastion-of-law-tce-p68) | 1-5 sorcery points | create ward to reduce incoming dmg by spending n d8's equal up to sorcery points spend remaining |
+| 5th | - | - |
+| [greater restoration](./spells/lv5/greater-restoration.md) | diamond worth 100 gp (consumed) | touch |
+| [synaptic static](./spells/lv5/synaptic-static.md) |  | 120ft, 20ft radius sphere, 8d6 psychic damage |
+| [wall of force](./spells/lv5/wall-of-force.md) |  | 120ft, 10 min concentration |
 
 ### bonus actions
 
 | name | requirement | note |
 | --- | --- | --- |
+| **class** | | |
 | convert sp to spell slot | spend sp | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
 | convert spell slot to sp | spend spell slot | [see table](./class_features.md#level-2-font-of-magic-phb14-p99) |
+| **magic items** | | |
 | stone of sorcery time | spend sp | spend up to 3 sorcery points to heal 1d8 + MOD(4) |
 | smart mans cap | wearing the cap | 60ft cone, dc 15 INT save, 5d8 psychic dmg + stunned on failed save, half dmg on successful save |
 
@@ -141,7 +151,7 @@
 
 | name | effect |
 | --- | --- |
-| chaos and understanding | upcast a spell up to 7th lv, but take n d6 psychic dmg for each level upcasted |
+| chaos and understanding | upcast a spell up to 7th lv, but take n d6 psychic dmg for each level up casted |
 
 ### on cantrip cast
 
@@ -153,6 +163,7 @@
 
 | name | requirement | note |
 | --- | --- | --- |
+| [counter spell](./spells/lv3/counterspell.md) |  | 60ft range, dc $10+SpellLV$ |
 | [restore balance](./class_features.md#level-1-restore-balance-tce-p68) | creature i see within 60 ft is about to roll with (dis)advantage | prevent (dis)advantage |
 | [shield](./spells/lv1/shield.md) | | +5 to ac |
 
@@ -170,4 +181,5 @@
 | lv | choice |
 | --- | --- |
 | 4 | Metamagic Adept |
-| 8 | ASI (cha) |
+| 8 | ASI (cha +2) |
+| 12 | ASI (cha +2) |
